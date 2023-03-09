@@ -78,4 +78,10 @@ contract NFT is ERC721, Ownable {
     function _baseURI() internal view virtual override returns (string memory) {
         return baseUri;
     }
+    
+    // Internal Functions
+    function _baseURI() internal view virtual override returns (string memory) {
+        return baseUri;
+    }
+    
 }
